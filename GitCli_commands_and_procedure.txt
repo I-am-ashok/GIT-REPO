@@ -1,0 +1,17 @@
+This is my Github practice file
+
+first install git and gitcli using 
+https://git-scm.com/download/win
+winget install --id GitHub.cli
+
+then open cmd and check git version using git --version
+then check githubcli by using gh
+the try to login from commandprompt by using gh auth login
+--> github.com
+--> https
+--> webbrowser authentication
+
+then create a repository in local and initiate it using 
+
+git initfrom that repo (open command prompt from that repo)
+then create a textfile (test.txt)
