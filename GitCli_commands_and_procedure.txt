@@ -20,9 +20,30 @@ C:\Users\Ashok\GIT_REPO>gh repo create GIT-REPO --public
 C:\Users\Ashok\GIT_REPO>git config remote.origin.url https://github.com/I-am-ashok/GIT-REPO.git
 C:\Users\Ashok\GIT_REPO>git push -u origin master
 
+#################Create a new branch and update the file by creating a pull request #########################
+
+C:\Users\Ashok>cd C:\Users\Ashok\GIT_REPO
+C:\Users\Ashok\GIT_REPO>git checkout -b V1
+
+C:\Users\Ashok\GIT_REPO>git add GitCli_commands_and_procedure.txt
+
+C:\Users\Ashok\GIT_REPO>git commit -m "updated the GitCli_commands_and_procedure.txt file in V1 branch"
+
+C:\Users\Ashok\GIT_REPO>git push origin V1
+
+C:\Users\Ashok\GIT_REPO>gh pr create --base master --head V1
+
+Creating pull request for V1 into master in I-am-ashok/GIT-REPO
+
+? Title WorkingWithGit
+
+? Title WorkingWithGit
+? Body <Received>
+? What's next? Submit
+https://github.com/I-am-ashok/GIT-REPO/pull/1
 
 
-
+#################Create a new branch and update the file by creating a pull request #########################
 
 
 
