@@ -10,8 +10,22 @@ the try to login from commandprompt by using gh auth login
 --> github.com
 --> https
 --> webbrowser authentication
-
 then create a repository in local and initiate it using 
-
 git initfrom that repo (open command prompt from that repo)
-then create a textfile (test.txt)
+then create a textfile GitCli_commands_and_procedure.txt
+C:\Users\Ashok\GIT_REPO>git add GitCli_commands_and_procedure.txt
+C:\Users\Ashok\GIT_REPO>git diff --cached --name-only
+C:\Users\Ashok\GIT_REPO>git commit -m "this is my first commit of GitCli_commands_and_procedure.txt"
+C:\Users\Ashok\GIT_REPO>gh repo create GIT-REPO --public
+C:\Users\Ashok\GIT_REPO>git config remote.origin.url https://github.com/I-am-ashok/GIT-REPO.git
+C:\Users\Ashok\GIT_REPO>git push -u origin master
+
+
+
+
+
+
+
+
+
+
